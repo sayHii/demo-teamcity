@@ -15,7 +15,7 @@ public class TestController {
         Map map = new HashMap<>();
 
         map.put("code", 200);
-        map.put("msg", "str");
+        map.put("msg", str);
         map.put("data", System.currentTimeMillis());
 
         return map;
