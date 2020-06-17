@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/test")
-    public Map test(@RequestParam("str") String str) {
+    public Map test(@RequestParam(value = "str", required = false) String str) {
 
         Map map = new HashMap<>();
 
